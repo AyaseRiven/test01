@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css or your chosen global CSS file */
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
+
+
+
+:root {
+  --background: #FCFAFA;
+}
+
+body {
+  background-color: #FCFAFA;
+  font-family: 'IBM Plex Sans Thai', Arial, Helvetica, sans-serif;
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
