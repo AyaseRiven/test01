@@ -2,6 +2,7 @@ import { IBM_Plex_Sans_Thai } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={ibmPlexSansThai.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
