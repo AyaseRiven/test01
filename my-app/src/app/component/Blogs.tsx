@@ -19,15 +19,24 @@ const Blogs = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="px-4">
-        <div className="flex flex-wrap gap-4">
-          <div className="w-full md:w-1/2 bg-red-500 p-4">Blog 1</div>
-          <div className="w-full md:w-1/2 bg-blue-700 p-4">Blog 2</div>
-        </div>
-        <div className="flex flex-wrap gap-4">
-          <div className="w-full md:w-1/2 bg-red-500 p-4">Blog 1</div>
-          <div className="w-full md:w-1/2 bg-blue-700 p-4">Blog 2</div>
+        <div className="px-4">
+          <div className="flex flex-row">
+            <div className="basis-1/2">
+              {" "}
+              <div className="flex flex-wrap gap-4">
+                <div className="w-full md:w-1/2 bg-red-500 p-4">Blog 1</div>
+                <div className="w-full md:w-1/2 bg-blue-700 p-4">Blog 2</div>
+              </div>
+            </div>
+            <div className="basis-1/2">
+              {" "}
+              <div className="flex flex-wrap gap-4">
+                <div className="w-full md:w-1/2 bg-red-500 p-4">Blog 1</div>
+                <div className="w-full md:w-1/2 bg-blue-700 p-4">Blog 2</div>
+                <div className="w-full md:w-1/2 bg-blue-700 p-4">Blog 3</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
